@@ -1,0 +1,28 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.caja {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 20px;            /* Espacio interno */
+  border: 5px solid #3498db; /* Borde */
+  margin: 30px;             /* Espacio externo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja h2 {
+  color: #3498db;
+  text-align: center;
+}
+
+.caja p {
+  color: #555;
+  text-align: justify;
+}
